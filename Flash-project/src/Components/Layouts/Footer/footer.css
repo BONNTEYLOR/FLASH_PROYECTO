@@ -1,0 +1,6 @@
+.footer{
+    /* background-image: url('https://res.cloudinary.com/deoe4gcly/image/upload/v1679060897/wave_e1vyai.svg'); */
+    width: 100%;
+    background:linear-gradient(to left,#FF13CB,#F6761A) ;
+    padding:200px 0;
+}

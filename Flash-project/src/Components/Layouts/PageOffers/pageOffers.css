@@ -1,0 +1,53 @@
+.boxCard{
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(239, 239, 239);
+    padding: 50px 0;
+}
+.boxCard2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 70%;
+    gap: 2rem;
+    
+}
+.cardSmall{
+    background: white;
+    box-shadow: 0 0 8px 0 rgb(237, 237, 237);
+    padding: 20px;
+    border-radius: 5px ;
+    font-size: 20px;
+    width: 90%;
+    
+}
+.cardSmall img{
+    width: 100%;
+    height: 70%;
+}
+.cardSmall p{
+    font-size: 15px;
+    text-align: center;
+}
+.containerOffers{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.tittleCard{
+    display: flex;
+    flex-direction: column;
+   justify-content: left;
+    padding: 50px;
+}
+.h2{
+    display: flex;
+    justify-content: left;
+    padding: 0 0 0 250px;
+}
+.color{
+    color: rgb(92, 91, 91);
+}

@@ -1,0 +1,99 @@
+.containerHeader{
+    width: 100%;
+    background:linear-gradient(to left,#FF13CB,#F6761A) ;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.imageLogo{
+   width: 100px;
+   height: 70%;
+}
+.boxSearch{
+    background:white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.boxSearch input{
+    width: 90%;
+    border: none;
+    margin-left: 5px;
+    outline: none;
+   
+}
+.searchColor{
+    color: gray;
+}
+.microphoneColor{
+    color: gray;
+}
+.userColor{
+    color: white;
+    cursor: pointer;
+}
+.cartColor{
+    color: white;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_items a{
+    margin: 15px;
+    color: white;
+    text-align: center;
+   
+    text-decoration: none;
+}
+
+
+
+    .nav_items{
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        right: 250px;
+        border-radius: 5px;
+        border:1px solid  #FF13CB;
+        background: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        width: 10%;        
+        transform: translateY(-200%);
+        transition: 0.8s ease all;
+    }
+    .nav_items.open{
+        transform: translateX(0) !important
+    }
+    .nav_toggle{
+        display: flex !important;
+        flex-direction: column;                
+        margin: 15px;
+    }
+    
+    
+    
+
+    button{
+        width:50% ;
+        background-color: #FF13CB;
+        border: none;
+        padding: 10px;
+        color: aliceblue;
+    
+
+
+    }
+    .buttons{
+        display: flex;
+        gap: 0.5rem;
+    }

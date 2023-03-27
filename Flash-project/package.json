@@ -1,0 +1,31 @@
+{
+  "name": "flash",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": " vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "lord-icon-element": "^4.0.3",
+    "lottie-web": "^5.10.2",
+    "react": "^18.2.0",
+    "react-bootstrap-pagination-control": "^1.0.5",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.5",
+    "react-icons": "^4.8.0",
+    "react-paginate": "^8.1.4",
+    "react-router-dom": "^6.8.2",
+    "sweetpagination": "^1.0.15"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "vite": "^4.1.0"
+  }
+}

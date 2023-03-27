@@ -1,0 +1,83 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.container-form{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+.form-rigth{
+    
+    display: flex;
+
+}
+.form-left{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: end;
+    
+   
+}
+form input{
+    border: 1px solid gray;
+    padding: 20px;
+    width: 450px;
+    margin-bottom: 10px;
+
+}
+textarea{
+    padding: 20px; 
+    width: 450px;
+}
+.btn-send{
+    background: linear-gradient(to left,#FF13CB,#F6761A) ;
+}
+
+.form-redes{
+    display: flex;
+    border: solid 2px rgb(202, 200, 200);
+    box-shadow: 0 0 15px 0 rgb(186, 184, 184);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+.btn-send{
+    background: linear-gradient(to left,#FF13CB,#F6761A);
+    margin-top: 10px;
+    padding: 15px;
+    width: 100px;
+    border: none;
+    color: white;
+    
+}
+.icons{
+    display: flex;
+    margin-bottom: 10px;
+   
+}
+.redes-sociales{
+    padding: 20px;
+}
+.color{
+    color: black;
+}
+.contact{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin-top: 30px;
+    
+}

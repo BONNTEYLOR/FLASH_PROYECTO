@@ -1,0 +1,30 @@
+.containerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgb(237, 237, 237);
+    padding: 20px 0 20px 0;
+   
+}
+.containerTittle{
+    margin-bottom: 25px;
+}
+.containerStores{
+    
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    
+   
+    
+}
+.storesImage{
+    width: 130px;  
+    height: 100%; 
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1px solid gray;
+}
